@@ -12,17 +12,19 @@
 # 2. Print and Return - Create a function that will receive a list with two numbers.
 # Print the first value and return the second.
 # Example: print_and_return([1,2]) should print 1 and return 2
-def a = 1
-def b = 2
-def numlist(a, b):
-    print(a)
-    return b
+# def twonum(please):
+#     print(please[0])
+#     return please[1]
 
-
+# print(twonum([1,2]))
 # 
 # 
 # 3. First Plus Length - Create a function that accepts a list and returns the sum of the first value in the list plus the list's length.
 # Example: first_plus_length([1,2,3,4,5]) should return 6 (first value: 1 + length: 5)
+def first_plus_length(help):
+     return help[0] + len(help)
+     
+print(first_plus_length([1,2,3,4,5]))
 # 
 # 
 # 4. Values Greater than Second - 
